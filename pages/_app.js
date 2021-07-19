@@ -1,7 +1,6 @@
 import '../styles/globals.css'
 import Amplify from 'aws-amplify'
 import config from '../src/aws-exports'
-import "tailwindcss/tailwind.css"
 
 Amplify.configure({ ...config, ssr: true })
 
